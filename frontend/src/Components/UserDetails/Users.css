@@ -1,0 +1,72 @@
+.table_details_admin {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+
+}
+
+.table_details_admin .admin_tbl_th,
+.table_details_admin .admin_tbl_td {
+  border: 2px solid #0b51e9;
+  padding: 8px;
+}
+
+.table_details_admin .admin_tbl_th {
+  background-color: #0b51e9;
+  color: white;
+  font-size: 20px;
+}
+
+.btn_dash_admin {
+  background-color: #0b51e9;
+  color: white;
+  border: 2px solid #0b51e9;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 3px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn_dash_admin:hover {
+  background-color: white;
+  color: #0b51e9;
+  border: 2px solid #0b51e9;
+}
+.btn_dash_admin_dlt {
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 3px 10px;
+  margin-left: 25px;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn_dash_admin_dlt:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+.btnbox {
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+.ful_detail_box {
+  padding: 0px 15%;
+}
+
+.serch_inpt {
+  width: 250px;
+  padding: 3px 5px;
+  font-size: 18px;
+  border-radius: 3px;
+  margin: 0 15px 0 0;
+  border: 2px solid #0b51e9;
+}

@@ -1,0 +1,117 @@
+ .discontainer {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 600px;
+    background-color: #dbe2f3; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #0b51e9;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #131f85;
+    margin-bottom: -20px;
+}
+
+.tourist-profile {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    
+}
+.tourist-profile p.bold-label {
+    font-weight: bold;
+}
+
+
+p{
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+} 
+
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-warning {
+    background-color: #0b51e9;
+    color: #fff;
+}
+
+button.btn-danger {
+    background-color: #f02a3e;
+    color: #fff;
+}
+
+button.btn-warning:hover,
+button.btn-danger:hover {
+    background-color: #ffae42;
+} 
+
+/* menu dropdown */
+.menu-container {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    z-index: 999;
+    background-color: rgba(145, 224, 240, 0.067); /* Light gray background */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(38, 35, 35, 0.1); /* Subtle shadow */
+}
+.menu-icon {
+    background:none;
+    border: none;
+    cursor: pointer;
+    padding: 10px; 
+}
+
+.menu-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: rgba(145, 224, 240, 0.067);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.menu-dropdown li {
+    margin: 0;
+}
+
+.menu-dropdown button {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: left; /* Align text to the left */
+}
+
+
+.menu-container:hover .menu-dropdown {
+    display: block;
+}
+
+p.date{
+    padding-left: 80%;
+
+
+}
+

@@ -1,0 +1,67 @@
+/* Styling for the container div */
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* Styling for the form container */
+.reset-form {
+    background-color: #f9f9f9;
+    padding: 80px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+}
+
+/* Styling for the form title */
+.reset_title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for the input field */
+.reset_input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Styling for the submit button */
+.reset_button {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    background-color: #0a32fa;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Reduced font size */
+}
+
+/* Hover effect for the submit button */
+.reset_button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for alerts */
+.alert {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.alert.success {
+    background-color: #4caf50;
+    color: white;
+}
+
+.alert.error {
+    background-color: #f44336;
+    color: white;
+}

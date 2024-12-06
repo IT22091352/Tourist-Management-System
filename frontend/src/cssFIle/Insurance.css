@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.insurance-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+}
+
+/* .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 1; } */
+
+.content-container {
+  position: relative;
+  z-index: 1;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.welcome-heading {
+  color: #131f85;
+  font-size: 4rem;
+  margin-bottom: 50px;
+}
+
+.welcome-text {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  color: #070101;
+  font-weight: bold;
+}
+
+.welcome-text2 {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  color:#070101;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.get-insurance-btn {
+  margin: 0 10px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0b51e9;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Added transform */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.get-insurance-btn1 {
+  margin: 0 10px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0b51e9;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Added transform */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.get-insurance-btn:hover {
+  background-color: #0056b3;
+}
+
+.get-insurance-btn1:hover {
+  background-color: #0056b3;
+}

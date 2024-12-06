@@ -1,0 +1,157 @@
+/* beforhome.css */
+
+/* General styles */
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+    --color-blue: #007bff;
+    --color-light-gray: #f8f9fa;
+    --color-dark-gray: #343a40;
+    --font-primary: Arial, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-primary);
+    line-height: 1.6;
+    color: var(--color-black);
+  }
+  
+  /* Hero section */
+  .hero-section {
+    background-image: url("https://source.unsplash.com/1100x800/?tourism");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-white);
+  }
+  
+  .hero-content {
+    max-width: 800px;
+  }
+  
+  .hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3; /* Darker shade of blue */
+  }
+  
+  /* Features section */
+  .features-section {
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .feature-item {
+    flex-basis: calc(33.333% - 2rem);
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .feature-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Testimonials section */
+  .testimonials-section {
+    padding: 4rem 0;
+    background-color: var(--color-light-gray);
+    text-align: center;
+  }
+  
+  .testimonial-item {
+    margin-bottom: 40px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  .testimonial-item p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-item h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: var(--color-blue);
+  }
+  
+  /* Contact section */
+  .contact-section {
+    padding: 4rem 0;
+    background-color: var(--color-dark-gray);
+    text-align: center;
+    color: var(--color-white);
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .social-media-links {
+    margin-top: 40px;
+  }
+  
+  .social-media-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-media-links a:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+  }
+  

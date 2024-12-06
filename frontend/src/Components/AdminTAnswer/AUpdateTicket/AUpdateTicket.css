@@ -1,0 +1,37 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea.form-control {
+  height: 150px; /* Set a fixed height for the textarea */
+}
+
+.btn {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}

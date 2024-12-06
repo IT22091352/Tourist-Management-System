@@ -1,0 +1,126 @@
+.calculation-container {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .calculation-container div {
+    margin-bottom: 15px;
+  }
+  
+  .calculation-container label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .calculation-container input[type="number"],
+  .calculation-container select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .calculation-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .calculation-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .calculation-container p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+
+/* menu dropdown */
+.menu-container {
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  z-index: 999;
+  background-color: rgba(145, 224, 240, 0.067); /* Light gray background */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(38, 35, 35, 0.1); /* Subtle shadow */
+}
+.menu-icon {
+  background:none;
+  border: none;
+  cursor: pointer;
+  padding: 10px; 
+}
+
+.menu-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: rgba(145, 224, 240, 0.067);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+.report-head {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 20px 20px; /* Padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 2.2rem; /* Font size */
+  font-weight: bold;
+  margin-bottom: 20px; /* Space below the element */
+}
+
+
+.menu-dropdown button {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: left; /* Align text to the left */
+}
+
+
+.menu-container:hover .menu-dropdown {
+  display: block;
+}
+
+p.date{
+  padding-left: 80%;
+
+
+}
+
+
+.btn-warning1 {
+  padding: 10px 20px;
+  background-color: #131f85; /* Yellow */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px; /* Add margin between buttons */
+}
+
+.btn-warning1:hover {
+  background-color: #1170f5; /* Darker yellow on hover */
+}

@@ -1,0 +1,88 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    
+  }
+  
+  .topic {
+    font-size: 2rem;
+    color: #0b51e9;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 8px;
+    border: 1px solid #0b51e9;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-container button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0b51e9;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f0f5ff; /* Light blue background */
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #0b51e9; /* Border color */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #0b51e9; /* Header background color */
+    color: white; /* Header text color */
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #e3ebff; /* Alternate row background color */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #cddaff; /* Hover row background color */
+  }
+  
+  .btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .btn1 {
+    background-color: #0b51e9; /* Yellow */
+    color: #fff; /* White text */
+  }
+  
+  .btn2 {
+    background-color: #dc3545; /* Red */
+    color: #fff; /* White text */
+  }
+  
+  .btn1:hover {
+    background-color: #4d84f1; /* Darker yellow/red on hover */
+  }
+  .btn2:hover {
+    background-color: #f14d4d; /* Darker yellow/red on hover */
+  }
+  

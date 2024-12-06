@@ -1,0 +1,13 @@
+.crud-app-container {
+    margin-top: 100px;
+}
+
+.crud-app-input {
+    margin-bottom: 10px;
+}
+.table-responsive {
+    overflow-x: auto;
+}
+.form-control{
+    margin-top: 20px;
+}

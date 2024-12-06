@@ -1,0 +1,31 @@
+.container {
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto; /* add margin on both sides of the content */
+  max-width: 700px; /* Adjust the max-width  */
+}
+
+.form-container {
+  margin-top: 20px; /* Adjust margin-top as needed */
+  margin-bottom: 20px;
+}
+
+.scrollable-description {
+  max-height: 200px; /* description box */
+  overflow-y: auto; /* Enable vertical scroll*/
+}
+
+.view-ticket-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.view-ticket-button:hover {
+  background-color: #0056b3;
+}

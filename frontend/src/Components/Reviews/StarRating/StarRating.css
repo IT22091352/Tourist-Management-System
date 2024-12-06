@@ -1,0 +1,26 @@
+.star {
+  font-size: 2.5em;      /* size of the stars */
+  color: rgb(0, 0, 0); /* Default color for non-filled stars */
+  cursor: pointer;
+}
+
+.star-filled {
+  font-size: 2.5em;
+  color: gold; /* Color for filled stars */
+  cursor: pointer;
+}
+
+.star-half-filled {
+  position: relative;
+  color: gold;
+  cursor: pointer;
+}
+
+.star-half-filled::before {
+  content: '\u2605';
+  position: absolute;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  color: rgb(0, 0, 0); /* Color for non-filled part of the half-filled star */
+}

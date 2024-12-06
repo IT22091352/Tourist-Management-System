@@ -1,0 +1,12 @@
+.container {
+ 
+    justify-content: center;
+    margin: 0 auto; /* add margin on both sides of the content */
+    max-width: 700px; /* Adjust the max-width as per your requirement */
+  }
+  
+  .form-container {
+    margin-top: 20px; /* Adjust margin-top  */
+    margin-bottom: 20px;
+  }
+  

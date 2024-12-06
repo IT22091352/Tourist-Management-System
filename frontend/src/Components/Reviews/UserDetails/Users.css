@@ -1,0 +1,122 @@
+.users-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-inline-start: 30%;
+}
+
+.search-input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #143a64;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.average-ratings {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.rating-box {
+  text-align: center;
+}
+
+.rating-box h4 {
+  margin-bottom: 5px;
+}
+
+.rating-box p {
+  font-size: 18px;
+}
+
+.rating-box p:last-child {
+  margin-bottom: 10px;
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.print-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.user-card {
+  background-color: #deedfb; 
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.user-card h1,
+.user-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.user-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.user-card button {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.user-card button:hover {
+  background-color: #c82333;
+}
+
+.add button {
+  padding: 10px 20px;
+  background-color: #b3cdeb;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: "Poppins, sans-serif";
+  text-decoration: none;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  margin-left: 800px;
+  margin-top: 20px;
+  font-size: medium;
+  font-size: large;
+}
+
+.add button:hover {
+  background-color: #7ab0eb; 
+}

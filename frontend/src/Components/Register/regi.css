@@ -1,0 +1,129 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+/* Hide scrollbar track */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0b51e9; /* Color of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0b51e9; /* Color of the scrollbar handle on hover */
+}
+
+.auth_box {
+  display: flex;
+  border-radius: 8px;
+  height: 90vh;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  align-items: center;
+  border: 2px solid #0b51e9;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.auth_box_log {
+  display: flex;
+  border-radius: 8px;
+  height: 65vh;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  align-items: center;
+  border: 2px solid #0b51e9;
+  justify-content: center;
+}
+.auth_main_box {
+  padding: 0 15%;
+ 
+}
+.auth_sub_box_one {
+  flex: 1;
+  padding: 25px;
+  
+}
+.auth_sub_box_two {
+  flex: 1;
+  padding: 20px;
+  
+}
+.auth_photo {
+  height: 580px;
+  justify-content: center;
+  border-radius: 8px;
+  width: 100%;
+}
+.auth_photo_log {
+  height: 400px;
+  border-radius: 8px;
+  width: 100%;
+}
+.topic_auth {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 18px;
+}
+.sub_auth {
+  color: #0b51e9;
+}
+.auth_lable {
+  font-weight: bold;
+  font-size: 20px;
+}
+.auth_input {
+  width: 96%;
+  margin-top: 3px;
+  border-radius: 3px;
+  padding: 3px 10px;
+  font-size: 18px;
+  border: 2px solid #0b51e9;
+}
+
+.admin_form_cneter_btn {
+  background-color: #0b51e9;
+  color: white;
+  border: 2px solid #0b51e9;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 3px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px auto 0 auto;
+  display: flex;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.noacc {
+  color: black;
+  text-align: center;
+  font-size: 17px;
+}
+.noaccsub {
+  color: #0b51e9;
+  font-weight: bold;
+  cursor: pointer;
+}
+.noaccsub:hover {
+  color: black;
+}
+.form_main_box {
+  padding: 20px 30%;
+}
+.form_user_details{
+  padding: 25px;
+  border: 2px solid #0b51e9;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.form_wel{
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #0b51e9;
+}

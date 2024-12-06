@@ -1,0 +1,57 @@
+.sidebar {
+    position: fixed;
+    top: 150px; /* Adjust this value to align with the Add FAQ button */
+    right: 20px; /* Adjust this value to determine the distance from the right side */
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h3 {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li:hover {
+    color: blue;
+  }
+  
+  .container {
+    margin-right: 240px; /* Adjust this value to prevent content from being hidden behind the sidebar */
+  }
+  
+  .page-title {
+    margin-top: 0;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .faqs-list {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 10px;
+  }
+  .container {
+    margin-left: 400px; /* Adjust this value based on the width of the sidebar */
+  }
+  h2 {
+    margin-left: 400px; /* Adjust as needed */
+  }
+btn-primary{
+    margin-left: 400px;
+  }

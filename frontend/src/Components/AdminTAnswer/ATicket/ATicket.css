@@ -1,0 +1,17 @@
+.all-ticket {
+  display: inline-block; /* Make the ATicket component behave like an inline-block element */
+  text-align: left; /* Align the content of the ATicket component to the left */
+  margin: 20px auto; /* Add top and bottom margin and use auto for left and right margins to center it horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ticket-info {
+  margin-bottom: 20px;
+}
+
+.ticket-info p {
+  margin: 5px 0;
+}
+

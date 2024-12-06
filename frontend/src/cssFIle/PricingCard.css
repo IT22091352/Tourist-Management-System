@@ -1,0 +1,103 @@
+/* Overall styling */
+body {
+  background-color: #dbe2f3; /* Light gray background */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.insurance-packages {
+  margin-top: 80px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  
+} 
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+/* Package container styling */
+.package-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 1px; /* Center the container horizontally */
+}
+
+.package-box {
+  width: calc(33.33% - 18px); /* Adjust width as needed */
+  background-color: #e1f1fd;
+  margin-bottom: 70px;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 2px 5px rgba(6, 6, 137, 0.1);
+  text-align:left;
+}
+
+/* Package header styling */
+.package-header {
+  background-color: #0b51e9;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 4vb;
+}
+
+.package-details {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  text-align: left;
+ 
+}
+
+
+
+/* Price button styling */
+.amount-button {
+
+  padding: 10px 10px;
+  background-color: #164270;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+/* Register button styling */
+.get-register-btn {
+  position: absolute;
+  bottom: -130px; /* Adjust this value to place the button below the middle card */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #09386a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.get-register-btn:hover {
+  background-color: #0b51e9;
+}
+
+
+.insurance-packages-heading {
+  color: #113760;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
